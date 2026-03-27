@@ -1,6 +1,8 @@
 {
   "name": "duckai-vercel-proxy",
   "version": "1.1.0",
+  "repository": "https://github.com/dursuntokgoz/Duck.ai-Proxy-API.git",
+  "license": "MIT",
   "private": true,
   "engines": {
     "node": "22.x"
@@ -8,5 +10,10 @@
   "dependencies": {
     "playwright-core": "^1.49.0",
     "@sparticuz/chromium": "^131.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@vercel/node": "^3.0.0",
+    "typescript": "^5.0.0"
   }
 }
